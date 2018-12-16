@@ -1,5 +1,4 @@
 package com.company;
-
 public class Author {
     private String name, email;
     private char gender;
@@ -28,8 +27,7 @@ public class Author {
 
 
     public String toString() {
-        return "Author's " +
-                "name is " + name + '\'' +
-                '}';
+        return "(" + getGender() + ")" + "Author's " +
+                "name is " + name + ". He's mail is " + getEmail();
     }
 }
